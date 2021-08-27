@@ -97,6 +97,7 @@ namespace Practico1_Ejercicio6_TDI
             this.compareButton.TabIndex = 5;
             this.compareButton.Text = "Comparar";
             this.compareButton.UseVisualStyleBackColor = true;
+            this.compareButton.Click += new System.EventHandler(this.compareButton_Click);
             // 
             // openFileDialog1
             // 
